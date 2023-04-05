@@ -1,0 +1,144 @@
+/* Write styles here */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+
+  background-color: black;
+  border-bottom: 1px solid white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+nav .brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav .nav-items a {
+  margin: 0 1rem;
+}
+
+.container {
+    
+  padding: 1.4em;
+}
+
+.div-box {
+    padding: 0;
+    margin: 0;
+    display: flex;
+   
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3rem;
+  /* margin-top: 0.3em; */
+  margin-bottom: 0.1em;
+}
+.left-div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.btn {
+  margin-top: 1em;
+}
+
+.btn button {
+  font-size: 1.4rem;
+  padding: 10px 30px;
+
+  outline: none;
+  background-color: black;
+  color: white;
+}
+
+.btn button:last-child {
+  background-color: white;
+  color: black;
+  margin-left: 20px;
+}
+
+.items {
+  display: flex;
+  width: auto;
+  overflow-x: scroll;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+
+.items .item {
+  border: 1px solid black;
+  width: 30%;
+}
+
+.items .item img {
+  max-width: 100%;
+}
+
+.items .item .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items .item .info {
+  padding: 1rem;
+}
+
+.items .item button {
+  width: 100%;
+  border-radius: none;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.items .item .colors {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.items .item .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin: 0 5px;
+}
+
+
+.right-div {
+    width: 50%;
+
+}

@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#rzp-button1 {
+
+color: white;
+background-color: black;
+padding: 1em 3em ;
+}
