@@ -110,9 +110,9 @@ itemContainer.addEventListener("click", function (event) {
 
     const img = item.querySelector("img").src;
     const title = item.querySelector(".info div:first-child").textContent;
-    const priceValue = item.querySelector(".price").textContent;//"Price: 109.95"
-    const price = parseFloat(priceValue.split("Price: ")[1]);//109.95
-    const sizeVal = item.querySelector(".sized").textContent;  // 'Size: s"
+    const priceValue = item.querySelector(".price").textContent; //"Price: 109.95"
+    const price = parseFloat(priceValue.split("Price: ")[1]); //109.95
+    const sizeVal = item.querySelector(".sized").textContent; // 'Size: s"
     const size = sizeVal.split(":")[1].trim(); // "s"
     const color = item.querySelector(".circle").style.backgroundColor;
     console.log(price);
